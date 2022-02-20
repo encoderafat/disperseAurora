@@ -94,7 +94,7 @@ const Native = () => {
                             </Form.Field>
                             <Divider />
                             <Form.Field>
-                                <Button basic color='green' onClick={handleClick}>Disperse</Button>
+                                <Button basic color='blue' onClick={handleClick}>Disperse</Button>
                             </Form.Field>
                         </Form>
                     </Grid.Column>
@@ -116,7 +116,7 @@ const Native = () => {
                             : <div></div>}
                         </Grid.Row>
                         <Grid.Row>
-                            {!active ? <Button basic color='green' onClick={onButtonClick}>
+                            {!active ? <Button basic color='blue' onClick={onButtonClick}>
                                 Connect To MetaMask
                             </Button> : <div></div> }
                         </Grid.Row>

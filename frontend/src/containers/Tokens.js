@@ -143,8 +143,8 @@ const Tokens = () => {
                             </Form.Field>
                             <Divider />
                             <Form.Field>
-                                <Button basic color='green' onClick={async () => handleApprove()} disabled={disableApprove}>Approve</Button>
-                                <Button basic color='green' onClick={async () => handleDisperse()} disabled={disableDisperse}>Disperse</Button>
+                                <Button basic color='blue' onClick={async () => handleApprove()} disabled={disableApprove}>Approve</Button>
+                                <Button basic color='blue' onClick={async () => handleDisperse()} disabled={disableDisperse}>Disperse</Button>
                             </Form.Field>   
                         </Form>
                     </Grid.Column>
@@ -166,7 +166,7 @@ const Tokens = () => {
                             : <div></div>}
                         </Grid.Row>
                         <Grid.Row>
-                        {!active ? <Button basic color='green' onClick={onButtonClick}>
+                        {!active ? <Button basic color='blue' onClick={onButtonClick}>
                                 Connect To MetaMask
                             </Button> : <div></div> }
                         </Grid.Row>

@@ -25,31 +25,31 @@ const Home = () => {
     const Wallet = () => {
         return (
           <div>
-            <Card>
+            <Card color='blue'>
               <Card.Header>
               </Card.Header>
               {active ? (
                 <Card.Content>
                   <div className='ui two buttons'>
-                    <Button basic color='green'>
+                    <Button basic color='blue'>
                     ChainId
                     </Button>
-                    <Button basic color='green'>
+                    <Button basic color='blue'>
                     {chainId}
                     </Button>
                   </div>
                   <div className='ui two buttons'>
-                    <Button basic color='green'>
+                    <Button basic color='blue'>
                     Account
                     </Button>
-                    <Button basic color='green'>
+                    <Button basic color='blue'>
                     {ellipsify(account)}
                     </Button>
                   </div>
                 </Card.Content>
               
             ) : (
-              <Button basic color='green' onClick={onButtonClick}>
+              <Button basic color='blue' onClick={onButtonClick}>
                 Connect To MetaMask
               </Button>
             )}
@@ -77,7 +77,7 @@ const Home = () => {
                         </Grid.Row>
                         <Divider />
                         <Grid.Row>
-                          <Button basic color='green' as={Link} to='/Native'>Disperse Currency</Button>
+                          <Button basic color='blue' as={Link} to='/Native'>Disperse Currency</Button>
                         </Grid.Row>
                       </Grid.Column>
                       <Grid.Column textAlign="center">
@@ -86,7 +86,7 @@ const Home = () => {
                         </Grid.Row>
                         <Divider />
                         <Grid.Row>
-                          <Button basic color='green' as={Link} to='/Tokens'>Disperse Tokens</Button>
+                          <Button basic color='blue' as={Link} to='/Tokens'>Disperse Tokens</Button>
                         </Grid.Row>
                       </Grid.Column>
                     </Grid.Row>

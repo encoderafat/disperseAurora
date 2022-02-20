@@ -46,10 +46,10 @@ export const Balance = () => {
     return (
       <Card.Content extra>
         <div className='ui two buttons'>
-          <Button basic color='green'>
+          <Button basic color='blue'>
           ETH
           </Button>
-          <Button basic color='green'>
+          <Button basic color='blue'>
           {parseFloat(formatEther(balance)).toPrecision(4)}
           </Button>
         </div>
