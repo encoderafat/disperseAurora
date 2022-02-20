@@ -1,0 +1,27 @@
+   Deploying 'RTOK'
+   ----------------
+   > transaction hash:    0x97b1f9f280c3a9e90b49eae9815f62877fd02badf5ee289e77eba324c332d8c5
+   > Blocks: 46           Seconds: 28
+   > contract address:    0x3CfE18f8d123144E465e2a3bC28bB72869cF4849
+   > block number:        80771983
+   > block timestamp:     1643592705
+   > account:             0xd5D51Def0D6496cd939B1AcD0Ae00b0080be0cC5
+   > balance:             1.07351282
+   > gas used:            1113143 (0x10fc37)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.02226286 ETH
+
+    Deploying 'Disperse'
+   --------------------
+   > transaction hash:    0xfb0d3e313fb13cc3af01f6da6614a89591ceb2703505a45a184f9ec8f87c7f4d
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x30d25c739BF4859DC8C12c67E89954824bfb39FE
+   > block number:        80772035
+   > block timestamp:     1643592737
+   > account:             0xd5D51Def0D6496cd939B1AcD0Ae00b0080be0cC5
+   > balance:             1.0636166
+   > gas used:            494811 (0x78cdb)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00989622 ETH
