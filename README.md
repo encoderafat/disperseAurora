@@ -4,6 +4,10 @@ Disperse DAPP is a batching protocol for both native currency and ERC20 tokens t
 
 DAPP is live at https://blissful-tereshkova-0e2032.netlify.app/
 
+Slides : https://docs.google.com/presentation/d/19wzOvgACY7dBTs_fTPHB9Llhplx8xCL5zqILMo2Cy7Q/edit#slide=id.gb59c7ace29_0_66
+
+Demo Video : https://vimeo.com/679863822            [ No Audio ]
+
 Contract Address : ```0x30d25c739BF4859DC8C12c67E89954824bfb39FE``` [on AURORA Testnet]
 
 MIT License
